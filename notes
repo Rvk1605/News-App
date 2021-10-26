@@ -1,0 +1,36 @@
+API KEY :cc368e5748a04da5b15464dd5718cab2
+
+Component Life Cycyle :- It is a series of events that happen from the mounting of a react component to its Unmounting.
+
+Mounting :Birth of a Component
+Update :Growth of a Component 
+Unmount :Death of a component
+
+Methods in React Component LifeCycle:-
+
+render() method - It is used to render HTML of the component in react.It is required for a class based component to render the DOM.It runs during the mounting and Updating of the component.It should be Pure i.e we cannot modify state inside it.
+
+componentDidmount() = it runs  after the component output  has been rendered to the DOM.
+
+componentDidupdate() = it is invoked as soon as the updating happens. it update the DOM in response to prop or state change.
+
+componentWillUnmount() = it is called just before the component is unmounted and destroyed .Performs Cleanup
+
+React Hooks :-
+
+->Features of Class based Components in function based Components.
+->It allows you to use state and other React Features without writing a class
+->Hooks are the Functions which hook into React State and LifeCycle Features from function components.
+
+Commonly USed React hooks:-
+
+=>useState
+=>useEffect - Alternate for Component did Mount.
+=>useContext - used for using context api (decrease the drilling of props , make any state /function global for any component to use it).
+=>useRef - useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
+            A common use case is to access a child imperatively
+
+
+Note:- 
+
+In Function Componet Prop Types are written below functional Component.
